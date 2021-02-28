@@ -1,12 +1,12 @@
 # DontStopMoving
 
-#Dicas para baixar o Node/NPM e o Yarn 1 na sua máquina
+## Dicas para baixar o Node/NPM e o Yarn 1 na sua máquina
 
-## Node e NPM
+### Node e NPM
 
 O primeiro passo é instalar o Node.js, que vem acompanhado do NPM.
 
-### Linux (Ubuntu/Debian)
+#### Linux (Ubuntu/Debian)
 
 Para o Linux iremos utilizar o **[NodeSource](https://github.com/nodesource/distributions/blob/master/README.md)**, basta seguir esses passos:
 
@@ -48,7 +48,7 @@ npm -v
 
 Caso retorne as versões do Node e npm, sua instalação foi um sucesso.
 
-### macOS
+#### macOS
 
 Para o macOS iremos utilizar o gerenciador de pacotes [**Homebrew**](https://brew.sh/index_pt-br), que é instalado usando Ruby, que já vem instalado por padrão, execute o seguinte comando no terminal:
 
@@ -83,7 +83,7 @@ npm -v
 
 Caso retorne as versões do Node e Npm, sua instalação foi um sucesso.
 
-### Windows
+#### Windows
 
 Para o Windows utilizaremos o gerenciador de pacotes **[Chocolatey](https://chocolatey.org/)**, porém antes dos passos de instalação vamos falar brevemente sobre qual shell você deve usar.
 
@@ -154,9 +154,9 @@ npm -v
 
 Caso retorne as versões do Node e npm, sua instalação foi um sucesso.
 
-## Yarn 1
+### Yarn 1
 
-### Linux (Ubuntu/Debian)
+#### Linux (Ubuntu/Debian)
 
 Para instalar o Yarn 1 no Linux vamos começar configurando o repositório do **Yarn** executando:
 
@@ -185,7 +185,7 @@ Feche e abra o terminal novamente, em seguida rode o comando:
 
 Caso retorne a versão do Yarn (acima de 1.0, abaixo de 2.0), a instalação ocorreu com sucesso.
 
-### macOS
+#### macOS
 
 Para instalar o Yarn 1 no macOS siga os seguintes passos, execute o comando:
 
@@ -207,7 +207,7 @@ Feche e abre o terminal novamente. Em seguida, rode o comando:
 
 Caso retorne a versão do Yarn (acima de 1.0, abaixo de 2.0), a instalação ocorreu com sucesso.
 
-### Windows
+#### Windows
 
 Para instalar o Yarn 1 no Windows siga os seguintes passos, execute o comando no Powershell (como admin):
 
@@ -226,8 +226,8 @@ Feche e abra o terminal novamente, em seguida rode o comando:
 Caso retorne a versão do Yarn (acima de 1.0, abaixo de 2.0), a instalação ocorreu com sucesso.
 
 
-# Após a instalação, como criar e configurar o projeto: 
+## Após a instalação, como criar e configurar o projeto: 
 
-### 1 - Para criar um projeto ReactJS usando next, usar no terminal o comando: yarn create next-app NOMEPROJETO
+#### 1 - Para criar um projeto ReactJS usando next, usar no terminal o comando: yarn create next-app NOMEPROJETO
 
-### 2 - Após isso, dentro do projeto abrir terminal e digitar yarn add typescript @types/react @types/react-dom @types/node -D
+#### 2 - Após isso, dentro do projeto abrir terminal e digitar yarn add typescript @types/react @types/react-dom @types/node -D
