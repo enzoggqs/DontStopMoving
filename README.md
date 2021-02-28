@@ -228,6 +228,6 @@ Caso retorne a versão do Yarn (acima de 1.0, abaixo de 2.0), a instalação oco
 
 # Após a instalação, como criar e configurar o projeto: 
 
-## 1 - Para criar um projeto ReactJS usando next, usar no terminal o comando: yarn create next-app NOMEPROJETO
+### 1 - Para criar um projeto ReactJS usando next, usar no terminal o comando: yarn create next-app NOMEPROJETO
 
-## 2 - Após isso, dentro do projeto abrir terminal e digitar yarn add typescript @types/react @types/react-dom @types/node -D
+### 2 - Após isso, dentro do projeto abrir terminal e digitar yarn add typescript @types/react @types/react-dom @types/node -D
